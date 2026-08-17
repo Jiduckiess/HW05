@@ -1,0 +1,10 @@
+# Local secrets and generated/local-only files
+.DS_Store
+data/*.local.csv
+*.log
+
+# Local clone and an accidental JMeter GUI save; the required plans live in test-plans/.
+eshop-sut/
+data/Summary Report.jmx
+
+# Keep actual required JTL/HTML reports for submission; do not ignore results/.

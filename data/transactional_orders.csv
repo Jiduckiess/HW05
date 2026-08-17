@@ -1,0 +1,6 @@
+email,password,product_id,product_name,price,quantity,total_amount,shipping_address
+test@eshop.com,Test1234!,1,iPhone 15 Pro Max,30000000,1,30000000,"123 Le Loi, Quan 1, Ho Chi Minh City"
+admin@eshop.com,Admin123!,2,Samsung Galaxy S24 Ultra,28000000,1,28000000,"123 Nguyen Hue, Quan 1, Ho Chi Minh City"
+test@eshop.com,Test1234!,3,MacBook Pro M3,45000000,1,45000000,"456 Vo Van Tan, Quan 3, Ho Chi Minh City"
+admin@eshop.com,Admin123!,4,AirPods Pro 2,6000000,2,12000000,"789 Dien Bien Phu, Binh Thanh, Ho Chi Minh City"
+test@eshop.com,Test1234!,5,Bàn phím cơ Keychron Q1,4000000,2,8000000,"10 Le Thanh Ton, Quan 1, Ho Chi Minh City"
