@@ -1,0 +1,10 @@
+Hostname evidence
+=================
+
+Command run on the test Mac:
+scutil --get LocalHostName
+
+Output:
+Jiduckiess
+
+Recorded on: 2026-08-17
