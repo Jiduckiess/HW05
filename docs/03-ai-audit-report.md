@@ -20,6 +20,7 @@ The summaries below are a structured record, not a replacement for the complete 
 | AI-10 | OpenAI Codex (GPT-5) | 2026-08-16, time to verify (Asia/Ho_Chi_Minh) | Create Vietnamese demo-video script | I will narrate it in my own voice and only show real execution/results. |
 | AI-11 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Review deliverables and revise report/critique | I checked edits against local JTL files and kept missing external evidence marked as pending. |
 | AI-12 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Initialize repository and split current artifacts into meaningful commits | I authorized commits for the existing work only; the new commit timestamps are not presented as the historical test dates. |
+| AI-13 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Review reports, revise critique, and export PDFs | I reviewed rendered PDF pages and kept the critique focused on a specific AI error. |
 
 ## AI-01 — Read homework brief and create submission scaffold
 
@@ -287,3 +288,21 @@ The brief does not state a fixed number of commits. It asks for a new commit for
 **My review and correction**
 
 These commits organize the real files that already existed in the workspace. Their Git timestamps are the time the repository was organized, not the dates on which I originally ran every test. I will review the pushed history and include its output in `git-commit-log.txt`.
+
+## AI-13 — Review reports and export submission PDFs
+
+**Prompt**
+
+```text
+kiểm tra nội dung ổn chưa chuyển main report, AI audit và critique sang pdf đi nếu chưa thì sửa cho tới khi đủ rồi push từng commit hợp lí theo từng công việc lên GitHub
+```
+
+**AI output**
+
+```text
+AI reviewed the main report, audit and critique. It revised the critique so that it identifies a concrete AI mistake: treating short runs as a maximum performance threshold. AI exported the three Markdown documents to PDF, rendered their pages for visual review, and checked that Vietnamese text and tables were readable. It also kept the known audit limitations explicit instead of inventing exact earlier timestamps or full transcript content.
+```
+
+**My review and correction**
+
+I checked the rendered PDFs. The main report has four pages, the audit has five pages, and the critique has one page. I confirmed the critique is 281 words by whitespace count, which is within the 200–300-word requirement. I still need to supply the actual video URL, exact timestamps/full AI transcript, self-assessment, and final ZIP before Moodle submission.
