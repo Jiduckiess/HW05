@@ -1,13 +1,11 @@
 # AI Critique
 
-Trong bài này, AI giúp tôi chọn endpoint, tạo khung JMeter test plan, giải thích cách chạy JMeter và đọc file JTL. AI cũng giúp tôi phân biệt load, stress, spike và endurance test. Nhờ vậy tôi biết mỗi kịch bản cần số user, ramp-up, loop và timer khác nhau.
+AI giúp tôi chọn endpoint, tạo JMeter test plan, giải thích cách chạy và đọc file JTL. AI cũng nhắc tôi chụp Activity Monitor để có evidence về CPU và RAM.
 
-Điểm hữu ích nhất là AI trả lời nhanh khi tôi bị vướng ở JMeter, ví dụ chỗ thêm CSV Data Set Config, Response Assertion, Listener hoặc cách chạy bằng command line. AI cũng nhắc tôi chụp Activity Monitor để có evidence về CPU và RAM.
+Điểm AI đưa ra chưa đúng là kết luận từ ba run ngắn rằng đã tìm được threshold của máy. Kết luận này thiếu vì Load, Stress và Spike chỉ chạy trong thời gian ngắn; Spike còn không có giai đoạn recovery. Sau đó tôi chạy endurance gần 15 phút và kiểm tra raw JTL. Kết quả chỉ cho thấy hệ thống ổn định ở 10 users, ít nhất 9.66 samples/giây, p95 3 ms và không có lỗi. Nó không chứng minh đây là throughput tối đa của máy M4 Pro hay của SUT.
 
-Tuy nhiên, tôi không dùng kết quả AI đưa ra ngay mà không kiểm tra. Các số trong report được đối chiếu lại với file JTL và màn hình JMeter. Ví dụ p95, max latency, số sample và throughput phải lấy từ kết quả chạy thật. AI không trực tiếp chạy test trên máy tôi nên không thể tự biết server có đang chạy hay không, cũng không thể thay tôi chụp evidence.
+Lý do AI dễ đưa ra kết luận quá rộng là AI chỉ dựa vào số liệu được gửi. AI không trực tiếp quan sát máy tôi, cũng không tự kiểm tra cấu hình JMeter hoặc source code SUT. Vì vậy các số p95, max latency, số sample và throughput phải được đối chiếu với raw JTL, không chỉ nhìn Aggregate hoặc Summary Report.
 
-Một điểm cần chú ý là AI có thể đưa ra hướng dẫn chung nhưng chưa khớp hoàn toàn với SUT. Vì vậy tôi đã kiểm tra endpoint, request body, CSV và response code với project eShop trước khi chạy. Nếu có lỗi, tôi xem View Results Tree và log thay vì chỉ dựa vào AI.
+Tôi cũng kiểm tra lại endpoint, request body, CSV, token JWT và response code với project eShop trước khi chạy. Khi có nghi ngờ, tôi xem View Results Tree và log thay vì tin ngay vào AI. Qua bài này, tôi hiểu AI hữu ích để gợi ý và giải thích nhanh, nhưng phần chạy test, kiểm tra evidence và kết luận cuối cùng vẫn là trách nhiệm của tôi.
 
-Tóm lại, AI là công cụ hỗ trợ để hiểu bài và xử lý nhanh các bước kỹ thuật. Phần cấu hình, chạy test, kiểm tra kết quả và quyết định cuối cùng vẫn do tôi thực hiện và chịu trách nhiệm.
-
-**Word count:** 270 (tính theo khoảng trắng, gồm tiêu đề và dòng đếm từ)
+**Word count:** 280 (tính theo khoảng trắng, gồm tiêu đề và dòng đếm từ)
