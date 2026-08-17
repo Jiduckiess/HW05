@@ -1,0 +1,25 @@
+# Git commit log — HW05
+
+Run the following at the end and paste the output below:
+
+```sh
+git log --pretty=format:'%h | %ad | %s' --date=iso
+```
+
+Required procedure commits should separately cover each scenario plan, AI analysis, and continuous-testing proposal.
+
+---
+
+[PASTE FINAL OUTPUT HERE]
+HW05 Git commit log
+Generated: 2026-08-17 (Asia/Ho_Chi_Minh)
+
+f1a3652 | 2026-08-17T19:39:33+07:00 | jiduckiess | chore: add HW05 scaffold and test data
+dd28be2 | 2026-08-17T19:39:44+07:00 | jiduckiess | test: add read-heavy load scenario artifacts
+2d6ae5d | 2026-08-17T19:39:55+07:00 | jiduckiess | test: add auth-heavy stress scenario artifacts
+2581400 | 2026-08-17T19:40:05+07:00 | jiduckiess | test: add transactional spike scenario artifacts
+4fd3e6c | 2026-08-17T19:40:15+07:00 | jiduckiess | test: add endurance soak scenario artifacts
+1036ce1 | 2026-08-17T19:40:25+07:00 | jiduckiess | docs: add verified analysis audit and critique
+2c27f71 | 2026-08-17T19:40:50+07:00 | jiduckiess | docs: add continuous performance testing proposal
+
+Note: These commits organize the actual artifacts currently in this repository. The commit timestamps show when the repository was organized, not when each performance test was first run.

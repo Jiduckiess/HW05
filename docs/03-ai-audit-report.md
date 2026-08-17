@@ -19,6 +19,7 @@ The summaries below are a structured record, not a replacement for the complete 
 | AI-09 | OpenAI Codex (GPT-5) | 2026-08-15, time to verify (Asia/Ho_Chi_Minh) | Interpret resource-monitor evidence and update report | I used the 11-thread Node process as the backend process and verified values against six screenshots. |
 | AI-10 | OpenAI Codex (GPT-5) | 2026-08-16, time to verify (Asia/Ho_Chi_Minh) | Create Vietnamese demo-video script | I will narrate it in my own voice and only show real execution/results. |
 | AI-11 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Review deliverables and revise report/critique | I checked edits against local JTL files and kept missing external evidence marked as pending. |
+| AI-12 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Initialize repository and split current artifacts into meaningful commits | I authorized commits for the existing work only; the new commit timestamps are not presented as the historical test dates. |
 
 ## AI-01 — Read homework brief and create submission scaffold
 
@@ -268,3 +269,21 @@ AI also identified missing external evidence: a hardware/hostname screenshot, un
 **My review and correction**
 
 I verified that the report values use the local JTL files: Load 200 samples, Stress 100, Spike 180, and Endurance 8,680. I will complete the pending external evidence myself. The commit history will be created from the actual current artifacts; it must not be presented as if it was created on earlier test dates.
+
+## AI-12 — Create a meaningful commit structure
+
+**Prompt**
+
+```text
+check đề bài coi bắt tôi có bao nhiêu commit chia ra rồi commit từng mục một vào GitHub
+```
+
+**AI output**
+
+```text
+The brief does not state a fixed number of commits. It asks for a new commit for each procedure step, and gives each scenario plan, AI analysis, and continuous-performance proposal as examples. AI initialized the assignment repository and created separate commits for scaffold/data, Load, Stress, Spike, Endurance, analysis/audit/critique, and continuous performance testing. A final documentation/log commit follows.
+```
+
+**My review and correction**
+
+These commits organize the real files that already existed in the workspace. Their Git timestamps are the time the repository was organized, not the dates on which I originally ran every test. I will review the pushed history and include its output in `git-commit-log.txt`.
