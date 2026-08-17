@@ -10,7 +10,7 @@
 - [x] Capture JMeter with Activity Monitor in the same frame for the three scenarios.
 - [x] Complete a 14.98-minute endurance run with six CPU/RAM evidence points.
 - [x] Complete the AI audit, critique and raw-log analysis.
-- [ ] Add a hardware-spec/hostname screenshot in `evidence/hardware/`.
+- [x] Add a hardware-spec screenshot in `evidence/hardware/`.
 - [ ] Upload an unlisted Vietnamese video of at least 6 minutes and paste its URL.
 - [ ] Replace audit timestamps with exact chat timestamps and retain full AI outputs.
 - [ ] Export the Markdown reports to PDF and create the required ZIP.
@@ -23,7 +23,7 @@
 | Public repository | `https://github.com/Jiduckiess/HW05` |
 | Demo video (unlisted YouTube) | Pending upload |
 | Date tested | 2026-08-15 |
-| Hardware / hostname evidence | MacBook Pro 14-inch, Apple M4 Pro, 24 GB unified memory, 512 GB SSD, hostname `Jiduckiess`; screenshot pending in `evidence/hardware/` |
+| Hardware / hostname evidence | MacBook Pro 14-inch, Apple M4 Pro, 24 GB unified memory, 512 GB SSD, hostname `Jiduckiess`; hardware screenshot: `evidence/hardware/macbook-pro-m4-pro-specs.png` |
 | Endurance threshold | At least 9.66 stable samples/s at 10 users; backend Node real memory 29.9–34.1 MB |
 | Bugs / performance issues filed | No confirmed issue filed; completed scenarios had 0.00% errors. |
 
