@@ -1,0 +1,181 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1786544736223,11,Login and obtain JWT,200,OK,Spike - checkout workflow 1-1,text,true,,635,228,4,4,http://localhost:3000/api/login,11,0,8
+1786544736350,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-2,text,true,,640,229,5,5,http://localhost:3000/api/login,1,0,0
+1786544736523,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-3,text,true,,635,228,6,6,http://localhost:3000/api/login,3,0,1
+1786544736687,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-4,text,true,,640,229,7,7,http://localhost:3000/api/login,4,0,1
+1786544736746,4,Add product to cart,200,OK,Spike - checkout workflow 1-1,text,true,,294,400,7,7,http://localhost:3000/api/cart,4,0,0
+1786544736855,3,Add product to cart,200,OK,Spike - checkout workflow 1-2,text,true,,294,409,8,8,http://localhost:3000/api/cart,3,0,0
+1786544736856,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-5,text,true,,635,228,8,8,http://localhost:3000/api/login,4,0,1
+1786544737030,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-6,text,true,,635,228,9,9,http://localhost:3000/api/login,4,0,1
+1786544737032,3,Add product to cart,200,OK,Spike - checkout workflow 1-3,text,true,,294,397,9,9,http://localhost:3000/api/cart,3,0,0
+1786544737191,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-7,text,true,,640,229,10,10,http://localhost:3000/api/login,4,0,1
+1786544737196,1,Add product to cart,200,OK,Spike - checkout workflow 1-4,text,true,,294,397,10,10,http://localhost:3000/api/cart,1,0,0
+1786544737255,2,Checkout order,200,OK,Spike - checkout workflow 1-1,text,true,,313,422,10,10,http://localhost:3000/api/checkout,2,0,0
+1786544737351,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-8,text,true,,635,228,11,11,http://localhost:3000/api/login,1,0,0
+1786544737364,1,Add product to cart,200,OK,Spike - checkout workflow 1-5,text,true,,294,408,11,11,http://localhost:3000/api/cart,1,0,0
+1786544737364,2,Checkout order,200,OK,Spike - checkout workflow 1-2,text,true,,313,428,11,11,http://localhost:3000/api/checkout,2,0,0
+1786544737522,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-9,text,true,,640,229,12,12,http://localhost:3000/api/login,4,0,2
+1786544737539,2,Add product to cart,200,OK,Spike - checkout workflow 1-6,text,true,,294,400,12,12,http://localhost:3000/api/cart,2,0,0
+1786544737540,4,Checkout order,200,OK,Spike - checkout workflow 1-3,text,true,,313,426,12,12,http://localhost:3000/api/checkout,4,0,0
+1786544737688,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-10,text,true,,635,228,13,13,http://localhost:3000/api/login,4,0,1
+1786544737696,2,Add product to cart,200,OK,Spike - checkout workflow 1-7,text,true,,294,409,13,13,http://localhost:3000/api/cart,2,0,0
+1786544737699,3,Checkout order,200,OK,Spike - checkout workflow 1-4,text,true,,313,435,13,13,http://localhost:3000/api/checkout,3,0,0
+1786544737759,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-1,text,true,,635,228,13,13,http://localhost:3000/api/login,4,0,0
+1786544737854,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-11,text,true,,640,229,14,14,http://localhost:3000/api/login,3,0,1
+1786544737858,1,Add product to cart,200,OK,Spike - checkout workflow 1-8,text,true,,294,397,14,14,http://localhost:3000/api/cart,1,0,0
+1786544737871,3,Checkout order,200,OK,Spike - checkout workflow 1-5,text,true,,313,426,14,14,http://localhost:3000/api/checkout,3,0,0
+1786544737872,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-2,text,true,,635,228,14,14,http://localhost:3000/api/login,3,0,0
+1786544738022,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-12,text,true,,640,229,15,15,http://localhost:3000/api/login,3,0,1
+1786544738030,1,Add product to cart,200,OK,Spike - checkout workflow 1-9,text,true,,294,397,15,15,http://localhost:3000/api/cart,1,0,0
+1786544738043,5,Checkout order,200,OK,Spike - checkout workflow 1-6,text,true,,313,422,15,15,http://localhost:3000/api/checkout,5,0,0
+1786544738046,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-3,text,true,,635,228,15,15,http://localhost:3000/api/login,2,0,0
+1786544738191,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-13,text,true,,635,228,16,16,http://localhost:3000/api/login,4,0,2
+1786544738195,2,Add product to cart,200,OK,Spike - checkout workflow 1-10,text,true,,294,408,16,16,http://localhost:3000/api/cart,2,0,0
+1786544738203,3,Checkout order,200,OK,Spike - checkout workflow 1-7,text,true,,313,428,16,16,http://localhost:3000/api/checkout,3,0,0
+1786544738206,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-4,text,true,,640,229,16,16,http://localhost:3000/api/login,1,0,0
+1786544738269,3,Add product to cart,200,OK,Spike - checkout workflow 1-1,text,true,,294,400,16,16,http://localhost:3000/api/cart,3,0,0
+1786544738356,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-14,text,true,,635,228,17,17,http://localhost:3000/api/login,3,0,1
+1786544738363,1,Add product to cart,200,OK,Spike - checkout workflow 1-11,text,true,,294,409,17,17,http://localhost:3000/api/cart,1,0,0
+1786544738362,3,Checkout order,200,OK,Spike - checkout workflow 1-8,text,true,,313,426,17,17,http://localhost:3000/api/checkout,3,0,0
+1786544738375,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-5,text,true,,640,229,17,17,http://localhost:3000/api/login,1,0,0
+1786544738378,1,Add product to cart,200,OK,Spike - checkout workflow 1-2,text,true,,294,397,17,17,http://localhost:3000/api/cart,1,0,0
+1786544738524,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-15,text,true,,635,228,18,18,http://localhost:3000/api/login,4,0,1
+1786544738527,2,Add product to cart,200,OK,Spike - checkout workflow 1-12,text,true,,294,397,18,18,http://localhost:3000/api/cart,2,0,0
+1786544738536,4,Checkout order,200,OK,Spike - checkout workflow 1-9,text,true,,313,435,18,18,http://localhost:3000/api/checkout,3,0,0
+1786544738549,0,Login and obtain JWT,200,OK,Spike - checkout workflow 1-6,text,true,,635,228,18,18,http://localhost:3000/api/login,0,0,0
+1786544738554,0,Add product to cart,200,OK,Spike - checkout workflow 1-3,text,true,,294,408,18,18,http://localhost:3000/api/cart,0,0,0
+1786544738688,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-16,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,1
+1786544738700,1,Add product to cart,200,OK,Spike - checkout workflow 1-13,text,true,,294,400,19,19,http://localhost:3000/api/cart,1,0,0
+1786544738699,3,Checkout order,200,OK,Spike - checkout workflow 1-10,text,true,,313,426,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544738711,1,Add product to cart,200,OK,Spike - checkout workflow 1-4,text,true,,294,409,19,19,http://localhost:3000/api/cart,1,0,0
+1786544738711,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-7,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544738777,2,Checkout order,200,OK,Spike - checkout workflow 1-1,text,true,,313,422,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544738856,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-17,text,true,,640,229,19,19,http://localhost:3000/api/login,4,0,1
+1786544738863,1,Add product to cart,200,OK,Spike - checkout workflow 1-14,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544738866,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-8,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544738866,3,Checkout order,200,OK,Spike - checkout workflow 1-11,text,true,,313,428,19,19,http://localhost:3000/api/checkout,3,0,0
+1786544738879,2,Checkout order,200,OK,Spike - checkout workflow 1-2,text,true,,313,426,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544738882,0,Add product to cart,200,OK,Spike - checkout workflow 1-5,text,true,,294,397,18,18,http://localhost:3000/api/cart,0,0,0
+1786544739023,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-18,text,true,,635,228,19,19,http://localhost:3000/api/login,4,0,1
+1786544739029,1,Add product to cart,200,OK,Spike - checkout workflow 1-15,text,true,,294,408,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739034,2,Checkout order,200,OK,Spike - checkout workflow 1-12,text,true,,313,435,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739044,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-9,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,0
+1786544739055,1,Add product to cart,200,OK,Spike - checkout workflow 1-6,text,true,,294,400,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739060,1,Checkout order,200,OK,Spike - checkout workflow 1-3,text,true,,313,426,19,19,http://localhost:3000/api/checkout,1,0,0
+1786544739191,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-19,text,true,,635,228,19,19,http://localhost:3000/api/login,4,0,2
+1786544739195,1,Add product to cart,200,OK,Spike - checkout workflow 1-16,text,true,,294,409,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739206,3,Checkout order,200,OK,Spike - checkout workflow 1-13,text,true,,313,422,19,19,http://localhost:3000/api/checkout,3,0,0
+1786544739207,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-10,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,0
+1786544739218,0,Add product to cart,200,OK,Spike - checkout workflow 1-7,text,true,,294,397,19,19,http://localhost:3000/api/cart,0,0,0
+1786544739217,2,Checkout order,200,OK,Spike - checkout workflow 1-4,text,true,,313,428,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739357,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-20,text,true,,635,228,19,19,http://localhost:3000/api/login,4,0,1
+1786544739366,1,Add product to cart,200,OK,Spike - checkout workflow 1-17,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739370,3,Checkout order,200,OK,Spike - checkout workflow 1-14,text,true,,313,426,19,19,http://localhost:3000/api/checkout,3,0,0
+1786544739372,2,Add product to cart,200,OK,Spike - checkout workflow 1-8,text,true,,294,408,19,19,http://localhost:3000/api/cart,2,0,0
+1786544739375,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-11,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544739387,2,Checkout order,200,OK,Spike - checkout workflow 1-5,text,true,,313,435,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739518,4,Login and obtain JWT,200,OK,Spike - checkout workflow 1-21,text,true,,640,229,19,19,http://localhost:3000/api/login,4,0,1
+1786544739529,1,Add product to cart,200,OK,Spike - checkout workflow 1-18,text,true,,294,400,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739533,2,Checkout order,200,OK,Spike - checkout workflow 1-15,text,true,,313,426,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739542,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-12,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544739549,1,Add product to cart,200,OK,Spike - checkout workflow 1-9,text,true,,294,409,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739561,1,Checkout order,200,OK,Spike - checkout workflow 1-6,text,true,,313,422,19,19,http://localhost:3000/api/checkout,1,0,0
+1786544739692,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-22,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,0
+1786544739700,2,Add product to cart,200,OK,Spike - checkout workflow 1-19,text,true,,294,397,19,19,http://localhost:3000/api/cart,2,0,0
+1786544739702,2,Checkout order,200,OK,Spike - checkout workflow 1-16,text,true,,313,428,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739714,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-13,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544739715,1,Add product to cart,200,OK,Spike - checkout workflow 1-10,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739724,1,Checkout order,200,OK,Spike - checkout workflow 1-7,text,true,,313,426,19,19,http://localhost:3000/api/checkout,1,0,0
+1786544739857,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-23,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544739867,1,Add product to cart,200,OK,Spike - checkout workflow 1-20,text,true,,294,408,19,19,http://localhost:3000/api/cart,1,0,0
+1786544739869,2,Checkout order,200,OK,Spike - checkout workflow 1-17,text,true,,313,435,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544739879,0,Add product to cart,200,OK,Spike - checkout workflow 1-11,text,true,,294,400,19,19,http://localhost:3000/api/cart,0,0,0
+1786544739879,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-14,text,true,,640,229,19,19,http://localhost:3000/api/login,1,0,0
+1786544739879,1,Checkout order,200,OK,Spike - checkout workflow 1-8,text,true,,313,426,19,19,http://localhost:3000/api/checkout,1,0,0
+1786544740025,2,Add product to cart,200,OK,Spike - checkout workflow 1-21,text,true,,294,409,19,19,http://localhost:3000/api/cart,2,0,0
+1786544740026,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-24,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544740031,2,Checkout order,200,OK,Spike - checkout workflow 1-18,text,true,,313,422,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544740040,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-15,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,0
+1786544740047,1,Add product to cart,200,OK,Spike - checkout workflow 1-12,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544740055,2,Checkout order,200,OK,Spike - checkout workflow 1-9,text,true,,313,428,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544740185,6,Login and obtain JWT,200,OK,Spike - checkout workflow 1-25,text,true,,635,228,19,19,http://localhost:3000/api/login,6,0,2
+1786544740199,5,Add product to cart,200,OK,Spike - checkout workflow 1-22,text,true,,294,397,19,19,http://localhost:3000/api/cart,5,0,0
+1786544740204,4,Checkout order,200,OK,Spike - checkout workflow 1-19,text,true,,313,426,19,19,http://localhost:3000/api/checkout,4,0,0
+1786544740210,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-16,text,true,,635,228,19,19,http://localhost:3000/api/login,2,0,0
+1786544740221,1,Add product to cart,200,OK,Spike - checkout workflow 1-13,text,true,,294,408,19,19,http://localhost:3000/api/cart,1,0,0
+1786544740221,2,Checkout order,200,OK,Spike - checkout workflow 1-10,text,true,,313,435,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544740356,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-26,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,1
+1786544740362,1,Add product to cart,200,OK,Spike - checkout workflow 1-23,text,true,,294,400,19,19,http://localhost:3000/api/cart,1,0,0
+1786544740372,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-17,text,true,,635,228,19,19,http://localhost:3000/api/login,2,0,0
+1786544740373,3,Checkout order,200,OK,Spike - checkout workflow 1-20,text,true,,313,426,19,19,http://localhost:3000/api/checkout,3,0,0
+1786544740381,0,Add product to cart,200,OK,Spike - checkout workflow 1-14,text,true,,294,409,19,19,http://localhost:3000/api/cart,0,0,0
+1786544740381,3,Checkout order,200,OK,Spike - checkout workflow 1-11,text,true,,313,422,19,19,http://localhost:3000/api/checkout,3,0,0
+1786544740525,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-27,text,true,,640,229,19,19,http://localhost:3000/api/login,2,0,1
+1786544740532,1,Add product to cart,200,OK,Spike - checkout workflow 1-24,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544740532,2,Checkout order,200,OK,Spike - checkout workflow 1-21,text,true,,313,428,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544740539,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-18,text,true,,635,228,19,19,http://localhost:3000/api/login,1,0,0
+1786544740546,1,Add product to cart,200,OK,Spike - checkout workflow 1-15,text,true,,294,397,19,19,http://localhost:3000/api/cart,1,0,0
+1786544740551,2,Checkout order,200,OK,Spike - checkout workflow 1-12,text,true,,313,426,19,19,http://localhost:3000/api/checkout,2,0,0
+1786544740690,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-28,text,true,,635,228,18,18,http://localhost:3000/api/login,2,0,1
+1786544740696,1,Add product to cart,200,OK,Spike - checkout workflow 1-25,text,true,,294,408,18,18,http://localhost:3000/api/cart,1,0,0
+1786544740710,2,Checkout order,200,OK,Spike - checkout workflow 1-22,text,true,,313,435,18,18,http://localhost:3000/api/checkout,2,0,0
+1786544740713,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-19,text,true,,640,229,18,18,http://localhost:3000/api/login,1,0,0
+1786544740717,1,Add product to cart,200,OK,Spike - checkout workflow 1-16,text,true,,294,400,18,18,http://localhost:3000/api/cart,1,0,0
+1786544740728,1,Checkout order,200,OK,Spike - checkout workflow 1-13,text,true,,313,426,18,18,http://localhost:3000/api/checkout,1,0,0
+1786544740857,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-29,text,true,,635,228,17,17,http://localhost:3000/api/login,1,0,0
+1786544740864,1,Add product to cart,200,OK,Spike - checkout workflow 1-26,text,true,,294,409,17,17,http://localhost:3000/api/cart,1,0,0
+1786544740869,2,Checkout order,200,OK,Spike - checkout workflow 1-23,text,true,,313,422,17,17,http://localhost:3000/api/checkout,2,0,0
+1786544740879,1,Add product to cart,200,OK,Spike - checkout workflow 1-17,text,true,,294,397,17,17,http://localhost:3000/api/cart,1,0,0
+1786544740880,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-20,text,true,,640,229,17,17,http://localhost:3000/api/login,1,0,0
+1786544740882,1,Checkout order,200,OK,Spike - checkout workflow 1-14,text,true,,313,428,17,17,http://localhost:3000/api/checkout,1,0,0
+1786544741024,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-30,text,true,,635,228,16,16,http://localhost:3000/api/login,2,0,1
+1786544741032,2,Add product to cart,200,OK,Spike - checkout workflow 1-27,text,true,,294,397,16,16,http://localhost:3000/api/cart,2,0,0
+1786544741037,2,Checkout order,200,OK,Spike - checkout workflow 1-24,text,true,,313,426,16,16,http://localhost:3000/api/checkout,2,0,0
+1786544741039,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-21,text,true,,635,228,16,16,http://localhost:3000/api/login,1,0,0
+1786544741042,0,Add product to cart,200,OK,Spike - checkout workflow 1-18,text,true,,294,408,16,16,http://localhost:3000/api/cart,0,0,0
+1786544741051,1,Checkout order,200,OK,Spike - checkout workflow 1-15,text,true,,313,435,16,16,http://localhost:3000/api/checkout,1,0,0
+1786544741198,1,Add product to cart,200,OK,Spike - checkout workflow 1-28,text,true,,294,400,15,15,http://localhost:3000/api/cart,1,0,0
+1786544741203,2,Checkout order,200,OK,Spike - checkout workflow 1-25,text,true,,313,426,15,15,http://localhost:3000/api/checkout,2,0,0
+1786544741218,0,Login and obtain JWT,200,OK,Spike - checkout workflow 1-22,text,true,,640,229,15,15,http://localhost:3000/api/login,0,0,0
+1786544741219,1,Add product to cart,200,OK,Spike - checkout workflow 1-19,text,true,,294,409,15,15,http://localhost:3000/api/cart,1,0,0
+1786544741223,1,Checkout order,200,OK,Spike - checkout workflow 1-16,text,true,,313,422,15,15,http://localhost:3000/api/checkout,1,0,0
+1786544741364,3,Add product to cart,200,OK,Spike - checkout workflow 1-29,text,true,,294,397,14,14,http://localhost:3000/api/cart,3,0,0
+1786544741369,3,Checkout order,200,OK,Spike - checkout workflow 1-26,text,true,,313,428,14,14,http://localhost:3000/api/checkout,3,0,0
+1786544741373,0,Login and obtain JWT,200,OK,Spike - checkout workflow 1-23,text,true,,635,228,14,14,http://localhost:3000/api/login,0,0,0
+1786544741383,1,Add product to cart,200,OK,Spike - checkout workflow 1-20,text,true,,294,397,14,14,http://localhost:3000/api/cart,1,0,0
+1786544741386,1,Checkout order,200,OK,Spike - checkout workflow 1-17,text,true,,313,426,14,14,http://localhost:3000/api/checkout,1,0,0
+1786544741532,3,Add product to cart,200,OK,Spike - checkout workflow 1-30,text,true,,294,408,13,13,http://localhost:3000/api/cart,3,0,0
+1786544741541,1,Add product to cart,200,OK,Spike - checkout workflow 1-21,text,true,,294,400,13,13,http://localhost:3000/api/cart,1,0,0
+1786544741539,6,Checkout order,200,OK,Spike - checkout workflow 1-27,text,true,,313,435,13,13,http://localhost:3000/api/checkout,6,0,0
+1786544741542,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-24,text,true,,640,229,13,13,http://localhost:3000/api/login,3,0,0
+1786544741543,3,Checkout order,200,OK,Spike - checkout workflow 1-18,text,true,,313,426,13,13,http://localhost:3000/api/checkout,3,0,0
+1786544741701,6,Checkout order,200,OK,Spike - checkout workflow 1-28,text,true,,313,422,12,12,http://localhost:3000/api/checkout,5,0,0
+1786544741710,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-25,text,true,,635,228,12,12,http://localhost:3000/api/login,2,0,0
+1786544741722,1,Add product to cart,200,OK,Spike - checkout workflow 1-22,text,true,,294,409,12,12,http://localhost:3000/api/cart,1,0,0
+1786544741725,3,Checkout order,200,OK,Spike - checkout workflow 1-19,text,true,,313,428,12,12,http://localhost:3000/api/checkout,3,0,0
+1786544741874,5,Checkout order,200,OK,Spike - checkout workflow 1-29,text,true,,313,426,11,11,http://localhost:3000/api/checkout,5,0,0
+1786544741878,1,Login and obtain JWT,200,OK,Spike - checkout workflow 1-26,text,true,,635,228,11,11,http://localhost:3000/api/login,1,0,0
+1786544741879,1,Add product to cart,200,OK,Spike - checkout workflow 1-23,text,true,,294,397,11,11,http://localhost:3000/api/cart,1,0,0
+1786544741889,2,Checkout order,200,OK,Spike - checkout workflow 1-20,text,true,,313,435,11,11,http://localhost:3000/api/checkout,2,0,0
+1786544742041,3,Checkout order,200,OK,Spike - checkout workflow 1-30,text,true,,313,426,10,10,http://localhost:3000/api/checkout,3,0,0
+1786544742047,1,Add product to cart,200,OK,Spike - checkout workflow 1-24,text,true,,294,397,10,10,http://localhost:3000/api/cart,1,0,0
+1786544742047,2,Checkout order,200,OK,Spike - checkout workflow 1-21,text,true,,313,422,10,10,http://localhost:3000/api/checkout,2,0,0
+1786544742047,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-27,text,true,,640,229,10,10,http://localhost:3000/api/login,2,0,0
+1786544742212,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-28,text,true,,635,228,9,9,http://localhost:3000/api/login,2,0,0
+1786544742215,1,Add product to cart,200,OK,Spike - checkout workflow 1-25,text,true,,294,408,9,9,http://localhost:3000/api/cart,1,0,0
+1786544742229,5,Checkout order,200,OK,Spike - checkout workflow 1-22,text,true,,313,428,9,9,http://localhost:3000/api/checkout,5,0,0
+1786544742383,1,Add product to cart,200,OK,Spike - checkout workflow 1-26,text,true,,294,400,8,8,http://localhost:3000/api/cart,1,0,0
+1786544742383,2,Login and obtain JWT,200,OK,Spike - checkout workflow 1-29,text,true,,640,229,8,8,http://localhost:3000/api/login,2,0,0
+1786544742385,1,Checkout order,200,OK,Spike - checkout workflow 1-23,text,true,,313,426,8,8,http://localhost:3000/api/checkout,1,0,0
+1786544742550,3,Login and obtain JWT,200,OK,Spike - checkout workflow 1-30,text,true,,635,228,7,7,http://localhost:3000/api/login,3,0,0
+1786544742555,0,Add product to cart,200,OK,Spike - checkout workflow 1-27,text,true,,294,409,7,7,http://localhost:3000/api/cart,0,0,0
+1786544742553,3,Checkout order,200,OK,Spike - checkout workflow 1-24,text,true,,313,435,7,7,http://localhost:3000/api/checkout,3,0,0
+1786544742720,3,Add product to cart,200,OK,Spike - checkout workflow 1-28,text,true,,294,397,6,6,http://localhost:3000/api/cart,3,0,0
+1786544742720,6,Checkout order,200,OK,Spike - checkout workflow 1-25,text,true,,313,426,6,6,http://localhost:3000/api/checkout,6,0,0
+1786544742890,4,Add product to cart,200,OK,Spike - checkout workflow 1-29,text,true,,294,397,5,5,http://localhost:3000/api/cart,4,0,0
+1786544742890,6,Checkout order,200,OK,Spike - checkout workflow 1-26,text,true,,313,422,5,5,http://localhost:3000/api/checkout,6,0,0
+1786544743059,4,Add product to cart,200,OK,Spike - checkout workflow 1-30,text,true,,294,408,4,4,http://localhost:3000/api/cart,4,0,0
+1786544743059,6,Checkout order,200,OK,Spike - checkout workflow 1-27,text,true,,313,428,4,4,http://localhost:3000/api/checkout,6,0,0
+1786544743229,7,Checkout order,200,OK,Spike - checkout workflow 1-28,text,true,,313,426,3,3,http://localhost:3000/api/checkout,7,0,0
+1786544743399,6,Checkout order,200,OK,Spike - checkout workflow 1-29,text,true,,313,435,2,2,http://localhost:3000/api/checkout,6,0,0
+1786544743569,7,Checkout order,200,OK,Spike - checkout workflow 1-30,text,true,,313,426,1,1,http://localhost:3000/api/checkout,7,0,0
