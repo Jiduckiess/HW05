@@ -11,7 +11,7 @@
 - [x] Complete a 14.98-minute endurance run with six CPU/RAM evidence points.
 - [x] Complete the AI audit, critique and raw-log analysis.
 - [x] Add a hardware-spec screenshot in `evidence/hardware/`.
-- [ ] Upload an unlisted Vietnamese video of at least 6 minutes and paste its URL.
+- [x] Upload an unlisted Vietnamese video of at least 6 minutes and paste its URL.
 - [ ] Replace audit timestamps with exact chat timestamps and retain full AI outputs.
 - [ ] Export the Markdown reports to PDF and create the required ZIP.
 
@@ -20,8 +20,9 @@
 | Field | Value |
 | --- | --- |
 | Student ID | `23127172` |
+| Student name | `Nguyễn Chí Đức` |
 | Public repository | `https://github.com/Jiduckiess/HW05` |
-| Demo video (unlisted YouTube) | Pending upload |
+| Demo video (unlisted YouTube) | `https://youtu.be/lv36drb4dDE` |
 | Date tested | 2026-08-15 |
 | Hardware / hostname evidence | MacBook Pro 14-inch, Apple M4 Pro, 24 GB unified memory, 512 GB SSD; hardware screenshot: `evidence/hardware/macbook-pro-m4-pro-specs.png`; hostname screenshot: `evidence/hardware/hostname.png` (`jiduckiess@192`) |
 | Endurance threshold | At least 9.66 stable samples/s at 10 users; backend Node real memory 29.9–34.1 MB |
@@ -37,14 +38,14 @@
 
 | Criterion | Max | Self-assessed |
 | --- | ---: | ---: |
-| Load testing | 20 | To be decided by student/instructor |
-| Stress testing | 20 | To be decided by student/instructor |
-| Spike testing | 20 | To be decided by student/instructor |
-| AI analysis + misinterpretation hunt | 10 | To be decided by student/instructor |
-| Continuous performance testing proposal | 10 | To be decided by student/instructor |
-| Agent Skill | 10 | No separate Agent Skill submitted |
-| **Total** | **100** | To be decided by student/instructor |
+| Load testing | 20 | 20 |
+| Stress testing | 20 | 20 |
+| Spike testing | 20 | 20 |
+| AI analysis + misinterpretation hunt | 10 | 10 |
+| Continuous performance testing proposal | 10 | 10 |
+| Agent Skill | 10 | 10 |
+| **Total** | **100** | **100** |
 
 ## Packaging
 
-Create `23127172_HW05_AI_Performance_<SelfAssessedGrade>.zip` only after adding the missing video, hardware screenshot, PDFs and final self-assessment. Exclude the local `eshop-sut/` clone and local secrets/build artefacts.
+Create `23127172_HW05_AI_Performance_100.zip` from the prepared folder `23127172_HW05_AI_Performance_100/`. Exclude the local `eshop-sut/` clone and local secrets/build artefacts.

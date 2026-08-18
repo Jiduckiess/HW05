@@ -21,6 +21,7 @@ The summaries below are a structured record, not a replacement for the complete 
 | AI-11 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Review deliverables and revise report/critique | I checked edits against local JTL files and kept missing external evidence marked as pending. |
 | AI-12 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Initialize repository and split current artifacts into meaningful commits | I authorized commits for the existing work only; the new commit timestamps are not presented as the historical test dates. |
 | AI-13 | OpenAI Codex (GPT-5) | 2026-08-17, time to verify (Asia/Ho_Chi_Minh) | Review reports, revise critique, and export PDFs | I reviewed rendered PDF pages and kept the critique focused on a specific AI error. |
+| AI-14 | OpenAI Codex (GPT-5) | 2026-08-18, time to verify (Asia/Ho_Chi_Minh) | Fill identity, declared self-assessment, and YouTube submission link | The student supplied the name, score 100, and video URL; I recorded them as supplied. |
 
 ## AI-01 — Read homework brief and create submission scaffold
 
@@ -306,3 +307,21 @@ AI reviewed the main report, audit and critique. It revised the critique so that
 **My review and correction**
 
 I checked the rendered PDFs. The main report has four pages, the audit has five pages, and the critique has one page. I confirmed the critique is 281 words by whitespace count, which is within the 200–300-word requirement. I still need to supply the actual video URL, exact timestamps/full AI transcript, self-assessment, and final ZIP before Moodle submission.
+
+## AI-14 — Fill submission metadata supplied by the student
+
+**Prompt**
+
+```text
+điểm là 100, tên Nguyễn Chí Đức còn link youtube tạo file txt riêng link: https://youtu.be/lv36drb4dDE
+```
+
+**AI output**
+
+```text
+AI added the supplied student name, student ID, repository URL, self-assessed score 100, and unlisted YouTube link to the README, main report, and video-link text file. It then prepared a separate submission folder using the required filename format.
+```
+
+**My review and correction**
+
+I supplied the name, score, and video URL myself. I will zip the prepared folder and submit it to Moodle. Exact timestamps and full earlier AI outputs remain to be completed from the original chat history if required by the grader.

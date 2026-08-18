@@ -10,4 +10,7 @@ data/Summary Report.jmx
 # Local PDF build helper and render previews.
 tmp/
 
+# Local submission staging folder; zip this folder manually after final review.
+23127172_HW05_AI_Performance_*/
+
 # Keep actual required JTL/HTML reports for submission; do not ignore results/.

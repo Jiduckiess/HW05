@@ -1,6 +1,5 @@
 YouTube video URL (unlisted):
-
-Paste the final unlisted YouTube URL on the line above before submission.
+https://youtu.be/lv36drb4dDE
 
 Required video content: Vietnamese narration, at least 6 minutes, and JMeter plus Activity Monitor shown in the same frame.
 https://youtu.be/lv36drb4dDE

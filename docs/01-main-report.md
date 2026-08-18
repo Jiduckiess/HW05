@@ -1,6 +1,7 @@
 # HW05 Performance-Testing Report
 
 **Student ID:** `23127172`  
+**Student name:** `Nguyễn Chí Đức`  
 **Repository:** `https://github.com/Jiduckiess/HW05`  
 **Date:** `2026-08-15`  
 **SUT revision:** `eshop-sut commit 85af3ba`
@@ -137,8 +138,8 @@ flowchart LR
 ## 6. Issues and demo
 
 - GitHub Issues: No performance bug was filed. The completed workloads had 0.00% errors; the missing spike recovery stage is recorded as a test-design limitation, not a confirmed SUT bug.
-- Demo video (unlisted, Vietnamese narration, ≥6 min): **Pending upload.**
-- The video shows JMeter/k6 and the resource monitor in the same frame: **Pending recording.**
+- Demo video (unlisted, Vietnamese narration, ≥6 min): `https://youtu.be/lv36drb4dDE`
+- The student supplied this video link. Verify before Moodle submission that it has Vietnamese narration, is unlisted, runs at least 6 minutes, and shows JMeter with the resource monitor in the same frame.
 
 ## 7. Conclusion
 
