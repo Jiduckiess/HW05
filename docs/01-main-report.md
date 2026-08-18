@@ -15,7 +15,7 @@
 | Resource monitor | macOS Activity Monitor, filtered by `node` |
 | Test network conditions | Local machine: JMeter and backend ran on the same Mac. |
 
-Hardware-spec evidence is `evidence/hardware/macbook-pro-m4-pro-specs.png`. Hostname evidence is `evidence/hardware/hostname.txt`, recorded from `scutil --get LocalHostName` as `Jiduckiess`. Resource-monitor evidence for the runs is in `evidence/`.
+Hardware-spec evidence is `evidence/hardware/macbook-pro-m4-pro-specs.png`. Hostname evidence is the Terminal screenshot `evidence/hardware/hostname.png`, which shows `jiduckiess@192`; the local hostname is `Jiduckiess`. Resource-monitor evidence for the runs is in `evidence/`.
 
 ## 2. AI-assisted design and human review
 

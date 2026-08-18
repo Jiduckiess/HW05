@@ -23,7 +23,7 @@
 | Public repository | `https://github.com/Jiduckiess/HW05` |
 | Demo video (unlisted YouTube) | Pending upload |
 | Date tested | 2026-08-15 |
-| Hardware / hostname evidence | MacBook Pro 14-inch, Apple M4 Pro, 24 GB unified memory, 512 GB SSD; hardware screenshot: `evidence/hardware/macbook-pro-m4-pro-specs.png`; hostname evidence: `evidence/hardware/hostname.txt` (`Jiduckiess`) |
+| Hardware / hostname evidence | MacBook Pro 14-inch, Apple M4 Pro, 24 GB unified memory, 512 GB SSD; hardware screenshot: `evidence/hardware/macbook-pro-m4-pro-specs.png`; hostname screenshot: `evidence/hardware/hostname.png` (`jiduckiess@192`) |
 | Endurance threshold | At least 9.66 stable samples/s at 10 users; backend Node real memory 29.9–34.1 MB |
 | Bugs / performance issues filed | No confirmed issue filed; completed scenarios had 0.00% errors. |
 
